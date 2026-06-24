@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build and dist
+dist/
+build/
+out/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend specific
+backend/node_modules/
+backend/.env
+backend/.env.local
+
+# Frontend specific
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/dist/
+
+# MongoDB
+mongodb/
+*.mongo
+
+# Temporary files
+*.tmp
+.cache/
+
+# OS files
+Thumbs.db
+.DS_Store

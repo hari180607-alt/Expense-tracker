@@ -60,6 +60,9 @@ const Register = () => {
               <Button type="submit" className="w-full" disabled={authLoading}>
                 {authLoading ? 'Creating account...' : 'Create account'}
               </Button>
+              <Button type="submit" className="w-full" disabled={authLoading}>
+                {authLoading ? 'Creating account...' : 'Create account'}
+              </Button>
             </form>
           </div>
           <p className="mt-8 text-sm text-slate-500">
